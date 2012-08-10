@@ -45,6 +45,7 @@ class MY_Lang extends CI_Lang {
 		 */
 		if ($this->line($phrase) === FALSE)
 		{
+			$translated = $phrase;
 			/**
 			 * We now know that our phrase is missing in the translation file.
 			 * We can add it to a database for translation or whatever you prefer to do with the prase
