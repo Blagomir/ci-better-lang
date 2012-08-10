@@ -1,3 +1,13 @@
-ci-better-lang is supposed to be a CodeIgniter language library extending the original CI Language class
-giving the developer opportunity to create mu more flexible translation phrases.
+DESCRIPTION
 
+ci-better-lang is supposed to be a CodeIgniter language library extending the original CI Language class
+giving the developer opportunity to create much more flexible translation phrases.
+
+
+USAGE
+
+code: $this->lang->phrase('Welcome');
+return: Welcome
+
+code: $this->lang->phrase('Welcome to %website%, %name%', array('%website%'=>'www.github.com', '%name%'=>'Blagomir Ivanov'));
+return: Welcome to www.github.com, Blagomir Ivanov
